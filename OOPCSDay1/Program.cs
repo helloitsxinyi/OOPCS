@@ -6,7 +6,14 @@ namespace OOPCSDay1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!");
+            Person harry = new Person("Harry");
+
+            harry.Talk();
+
+            Person mary;
+
+            mary = new Person("Mary");
+            mary.Talk();
         }
     }
 }
