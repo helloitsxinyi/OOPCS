@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{D7A416E8-81E5-431C-9F66-6B2AE33BFB97}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOPCSDay1/Program.cs">
+    <Files>
+      <File FileName="OOPCS/Program.cs" Line="1" Column="1" />
+      <File FileName="OOPCSDay1/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOPCS" expanded="True">
+            <Node name="OOPCS" expanded="True" />
+            <Node name="OOPCSDay1" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OOPCS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OOPCSDay1 FirstBuild="True" />
+</Properties>
