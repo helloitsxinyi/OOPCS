@@ -19,9 +19,7 @@ namespace OOPCSDay1
             mary.Talk();
 
             LED ledOne = new LED("red");
-            ledOne.turnOn();
-            Console.WriteLine(ledOne.isOn);
-            Console.WriteLine(ledOne.getOnStatus());
+            
         }
     }
 }
