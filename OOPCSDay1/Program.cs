@@ -17,6 +17,11 @@ namespace OOPCSDay1
 
             mary = new Person("Mary");
             mary.Talk();
+
+            LED ledOne = new LED("red");
+            ledOne.turnOn();
+            Console.WriteLine(ledOne.isOn);
+            Console.WriteLine(ledOne.getOnStatus());
         }
     }
 }
