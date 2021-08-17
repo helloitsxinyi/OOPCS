@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/Person.deps.json
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/Person.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/Person.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/Person.dll
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/ref/Person.dll
+/Users/xinyitay/Projects/OOPCS/Person/bin/Debug/net5.0/Person.pdb
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.dll
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/ref/Person.dll
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.pdb
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.genruntimeconfig.cache
