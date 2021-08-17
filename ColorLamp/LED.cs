@@ -18,7 +18,8 @@ namespace ColorLamp
         }
 
         public bool isLEDOn()
-        {           
+        {
+           
             return isOn;
         }
 
@@ -39,13 +40,6 @@ namespace ColorLamp
             {
                 isOn = false;
             }      
-        }
-
-        // even simpler
-        public void toggleOnOff()
-        {
-            isOn = !isOn;
-        }
-
+        } 
     }
 }
