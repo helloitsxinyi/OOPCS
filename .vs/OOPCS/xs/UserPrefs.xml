@@ -1,8 +1,8 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D7A416E8-81E5-431C-9F66-6B2AE33BFB97}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{13D705E5-7819-4140-8647-DBDC0407F839}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="OOPCS/Program.cs" Line="1" Column="1" />
-      <File FileName="OOPCSDay1/Program.cs" Line="13" Column="1" />
+      <File FileName="OOPCSDay1/Program.cs" Line="20" Column="1" />
+      <File FileName="OOPCSDay1/Person (copy).cs" Line="8" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="OOPCS" expanded="True">
             <Node name="OOPCS" expanded="True" />
             <Node name="OOPCSDay1" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Person.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -20,9 +20,12 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/xinyitay/Projects/OOPCS/OOPCSDay1/Program.cs" relfile="OOPCSDay1/Program.cs" line="16" column="1" />
+      <Breakpoint file="/Users/xinyitay/Projects/OOPCS/OOPCSDay1/Person.cs" relfile="OOPCSDay1/Person.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.OOPCS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.OOPCSDay1 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.OOPCS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OOPCSDay1 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
