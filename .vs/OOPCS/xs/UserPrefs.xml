@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{D7A416E8-81E5-431C-9F66-6B2AE33BFB97}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOPCSDay1/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D7A416E8-81E5-431C-9F66-6B2AE33BFB97}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="OOPCS/Program.cs" Line="1" Column="1" />
-      <File FileName="OOPCSDay1/Program.cs" Line="1" Column="1" />
+      <File FileName="OOPCSDay1/Program.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
