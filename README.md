@@ -1,1 +1,1 @@
-# OOPCS
+# OOPCS: Object Oriented Programming in C#
