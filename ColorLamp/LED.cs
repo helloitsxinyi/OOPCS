@@ -9,7 +9,9 @@ namespace ColorLamp
         public LED(string color)
         {
             this.color = color;
-            this.isOn = false;
+            // don't need this.isOn because no local variable in this method.
+            // only local variable is color, so to differentiate between local and member attribute, need to put this. (this points to current object)
+            isOn = false;
         }
 
         public string getColor()
@@ -25,10 +27,7 @@ namespace ColorLamp
 
         public void turnOn()
         {
-            // good to include the checks to make it more thorough.
-            // method using method within its own class
-            // if (! isLEDOn())
-            if (isOn != true)
+            if (!isLEDOn()) 
             {
                 isOn = true;
             }           
@@ -40,6 +39,6 @@ namespace ColorLamp
             {
                 isOn = false;
             }      
-        } 
+        }
     }
 }
