@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPCSDay2", "OOPCSDay2\OOPCSDay2.csproj", "{6F5A13C1-87A2-4A19-894E-D8136C518F19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumber", "EvenNumber\EvenNumber.csproj", "{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6F5A13C1-87A2-4A19-894E-D8136C518F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F5A13C1-87A2-4A19-894E-D8136C518F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F5A13C1-87A2-4A19-894E-D8136C518F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

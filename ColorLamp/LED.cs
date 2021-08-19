@@ -14,28 +14,28 @@ namespace ColorLamp
             isOn = false;
         }
 
-        public string getColor()
+        public string GetColor()
         {
             return color;
         }
 
-        public bool isLEDOn()
+        public bool IsLEDOn()
         {
            
             return isOn;
         }
 
-        public void turnOn()
+        public void TurnOn()
         {
-            if (!isLEDOn()) 
+            if (!IsLEDOn()) 
             {
                 isOn = true;
             }           
         }
 
-        public void turnOff()
+        public void TurnOff()
         {
-            if (isLEDOn())
+            if (IsLEDOn())
             {
                 isOn = false;
             }      
