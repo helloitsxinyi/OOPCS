@@ -1,11 +1,11 @@
 ﻿namespace ColorLamp
 {
-    public class ColorLampPoor
+    public class ColorLampNoEdgeCase
     {
         private LED red, green, blue;
         private LED current;
 
-        public ColorLampPoor(LED red, LED green, LED blue)
+        public ColorLampNoEdgeCase(LED red, LED green, LED blue)
         {
             this.red = red;
             this.green = green;
