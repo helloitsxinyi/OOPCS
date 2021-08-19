@@ -1,0 +1,4 @@
+/Users/xinyitay/Projects/OOPCS/PersonProp/obj/Debug/net5.0/PersonProp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/PersonProp/obj/Debug/net5.0/PersonProp.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/PersonProp/obj/Debug/net5.0/PersonProp.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/PersonProp/obj/Debug/net5.0/PersonProp.csproj.CoreCompileInputs.cache
