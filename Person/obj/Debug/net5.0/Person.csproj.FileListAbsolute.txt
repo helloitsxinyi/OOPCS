@@ -12,3 +12,4 @@
 /Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/ref/Person.dll
 /Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.pdb
 /Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.genruntimeconfig.cache
+/Users/xinyitay/Projects/OOPCS/Person/obj/Debug/net5.0/Person.csproj.AssemblyReference.cache

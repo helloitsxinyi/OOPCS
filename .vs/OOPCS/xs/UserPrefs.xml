@@ -1,18 +1,20 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{20076DEA-5B5F-43C8-99E0-476C914594C1}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C8BC601A-450E-4950-BD5F-D5D62EDD53ED}|Default">
+  <MonoDevelop.Ide.ItemProperties.EvenNumber PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ColorLamp/LED.cs" Line="31" Column="14" />
+      <File FileName="EvenNumber/Program.cs" Line="26" Column="39" />
       <File FileName="ColorLamp/Program.cs" Line="17" Column="1" />
-      <File FileName="../../Desktop/GDipSA/SA4102 Enterprise Solutions Design &amp; Development/OOPCS/OOPDay1WSSoln/ColorLamp/ColorLamp.cs" Line="1" Column="1" />
       <File FileName="ColorLamp/ColorLamp.cs" Line="6" Column="29" />
+      <File FileName="EvenNumber/EvenNumber.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOPCS" expanded="True">
             <Node name="ColorLamp" expanded="True">
-              <Node name="ColorLamp.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="EvenNumber" expanded="True" />
             <Node name="OOPCSDay2" expanded="True" />
             <Node name="Person" expanded="True" />
           </Node>
