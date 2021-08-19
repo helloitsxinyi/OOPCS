@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/EvenNumber.deps.json
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/EvenNumber.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/EvenNumber.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/EvenNumber.dll
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/ref/EvenNumber.dll
+/Users/xinyitay/Projects/OOPCS/EvenNumber/bin/Debug/net5.0/EvenNumber.pdb
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.dll
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/ref/EvenNumber.dll
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.pdb
+/Users/xinyitay/Projects/OOPCS/EvenNumber/obj/Debug/net5.0/EvenNumber.genruntimeconfig.cache
