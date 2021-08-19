@@ -1,27 +1,32 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{13D705E5-7819-4140-8647-DBDC0407F839}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{20076DEA-5B5F-43C8-99E0-476C914594C1}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="OOPCSDay1/Program.cs" Line="20" Column="1" />
-      <File FileName="OOPCSDay1/Person (copy).cs" Line="8" Column="29" />
+      <File FileName="ColorLamp/LED.cs" Line="31" Column="14" />
+      <File FileName="ColorLamp/Program.cs" Line="17" Column="1" />
+      <File FileName="../../Desktop/GDipSA/SA4102 Enterprise Solutions Design &amp; Development/OOPCS/OOPDay1WSSoln/ColorLamp/ColorLamp.cs" Line="1" Column="1" />
+      <File FileName="ColorLamp/ColorLamp.cs" Line="6" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOPCS" expanded="True">
-            <Node name="OOPCS" expanded="True" />
-            <Node name="OOPCSDay1" expanded="True">
-              <Node name="Person.cs" selected="True" />
+            <Node name="ColorLamp" expanded="True">
+              <Node name="ColorLamp.cs" selected="True" />
             </Node>
+            <Node name="OOPCSDay2" expanded="True" />
+            <Node name="Person" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OOPCSDay2 FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Person PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ColorLamp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/xinyitay/Projects/OOPCS/OOPCSDay1/Program.cs" relfile="OOPCSDay1/Program.cs" line="16" column="1" />
       <Breakpoint file="/Users/xinyitay/Projects/OOPCS/OOPCSDay1/Person.cs" relfile="OOPCSDay1/Person.cs" line="18" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
