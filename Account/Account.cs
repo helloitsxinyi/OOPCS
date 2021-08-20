@@ -114,8 +114,7 @@ namespace Account
         {
             if (amt <= 0)
             {
-                Console.WriteLine("Invalid withdrawal value, please try again.");
-                
+                Console.WriteLine("Invalid withdrawal value, please try again.");                
             }
             else
             {
@@ -126,16 +125,23 @@ namespace Account
 
 
 
-      /**
-       * TODO: override method ToString
-       * This method returns the values of the attributes
-       * of the current object in a more readable format
-       * For example: 
-       * Account: accountNumber=S0000111, accountHolder=S1111111A, balance=2000
-       */
+        /**
+         * TODO: override method ToString
+         * This method returns the values of the attributes
+         * of the current object in a more readable format
+         * For example: 
+         * Account: accountNumber=S0000111, accountHolder=S1111111A, balance=2000
+         */
+
+        // include override keyword to override the function
+        override public string ToString()
+        {
+            return "accountNumber=" + AcctNumber + ", accountHolder=" + AcctHolderId + ", balance=" + Balance;
+        }
 
 
 
 
-   }
+
+    }
 }

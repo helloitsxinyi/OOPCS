@@ -23,8 +23,7 @@ namespace Account
             // 2. Call Console.WriteLine(account1)
             // Make sure that the account information 
             // is displayed correctly
-            Account account1 = new Account("S0000111", "S1111111A", 2000);
-            //prints Account.Account tho
+            Account account1 = new Account("S0000111", "S1111111A", 2000);        
             Console.WriteLine(account1);
 
 
@@ -50,7 +49,7 @@ namespace Account
             // Withdraw 4000 from the account.
             // Make sure that the withdrawing is unsuccessful.
             account1.Withdraw(4000);
-            Console.WriteLine(account1.Balance);
+            Console.WriteLine(account1.Balance);          
             
             
         }
