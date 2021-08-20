@@ -57,7 +57,6 @@ namespace Account
                 balance = value;
             }
         }
-        
 
 
 
@@ -66,35 +65,41 @@ namespace Account
          * This method increases the account balance 
          * by the given amount
          */
-        public double Deposit(double amt)
+
+        // don't have to use return. if use, can make loop simpler, otherwise, should be fine.
+        public void Deposit(double amt)
         {            
             if (amt <= 0)
             {
-                Console.WriteLine("Invalid deposit value, please try again.");
-                return balance;
+                Console.WriteLine("Invalid deposit value, please try again.");            
             }
-            Balance += amt;
-            return Balance;
+            else
+            {
+                Balance += amt;
+            }            
         }
 
 
 
-      /**
-       * TODO: implement method Withdraw
-       * This method decreases the account balance
-       * by the given amount. Balance must NOT be negative.
-       * It makes sure that there is enough balance to
-       * widthdraw
-       */
-      public double Withdraw(double amt)
+        /**
+         * TODO: implement method Withdraw
+         * This method decreases the account balance
+         * by the given amount. Balance must NOT be negative.
+         * It makes sure that there is enough balance to
+         * widthdraw
+         */
+
+        // don't have to use return. if use, can make loop simpler, otherwise, should be fine.
+        public void Withdraw(double amt)
         {
             if (amt <= 0)
             {
                 Console.WriteLine("Invalid withdrawal value, please try again.");
             }
-
-            Balance -= amt;
-            return Balance;
+            else
+            {
+                Balance -= amt;
+            }                  
         }
 
 
@@ -107,7 +112,16 @@ namespace Account
        */
       public void TransferTo(double amt, Account another)
         {
-
+            if (amt <= 0)
+            {
+                Console.WriteLine("Invalid withdrawal value, please try again.");
+                
+            }
+            else
+            {
+                Balance -= amt;
+                another.Balance += amt;
+            }
         }
 
 
