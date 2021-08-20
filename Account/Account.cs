@@ -41,9 +41,9 @@ namespace Account
          * Note: acctNumber should be read-only, i.e. can not be
          * set from outside
          */
-        public string AcctNumber { get; }
-        public string AcctHolderId { get; set; }
-        public double Balance
+        protected string AcctNumber { get; }
+        protected string AcctHolderId { get; set; }
+        protected double Balance
         {
             get { return balance; }
 
