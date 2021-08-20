@@ -138,10 +138,5 @@ namespace Account
         {
             return "accountNumber=" + AcctNumber + ", accountHolder=" + AcctHolderId + ", balance=" + Balance;
         }
-
-
-
-
-
     }
 }
