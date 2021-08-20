@@ -50,6 +50,7 @@ namespace Account
             // Withdraw 4000 from the account.
             // Make sure that the withdrawing is unsuccessful.
             account1.Withdraw(4000);
+            Console.WriteLine(account1.Balance);
             
             
         }

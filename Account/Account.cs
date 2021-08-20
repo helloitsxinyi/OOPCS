@@ -18,44 +18,41 @@ namespace Account
         private string acctHolderId;
         private double balance;
 
-      public Account() { }
+        public Account() { }
 
 
-      /**
-       * TODO: create constructor
-       * This contructor receives 3 values
-       * and initializes the 3 attributes accordingly
-       */
-      public Account(string acctNumber, string acctHolderId, double balance)
-      {
+        /**
+         * TODO: create constructor
+         * This contructor receives 3 values
+         * and initializes the 3 attributes accordingly
+         */
+        public Account(string acctNumber, string acctHolderId, double balance)
+        {
             AcctNumber = acctNumber;
             AcctHolderId = acctHolderId;
-            this.balance = balance;         
-      }
+            this.balance = balance;
+        }
 
 
-      /**
-       * TODO: create properties
-       * These properties expose the private attributes
-       *
-       * Note: acctNumber should be read-only, i.e. can not be
-       * set from outside
-       */
-      public string AcctNumber { get; }
-      public string AcctHolderId { get; set; }
-      //public double Balance { get; set; }
-
-
+        /**
+         * TODO: create properties
+         * These properties expose the private attributes
+         *
+         * Note: acctNumber should be read-only, i.e. can not be
+         * set from outside
+         */
+        public string AcctNumber { get; }
+        public string AcctHolderId { get; set; }
         public double Balance
         {
             get { return balance; }
-                        
+
             set
             {
                 if (value <= 0)
                 {
                     Console.WriteLine("Transaction invalid!");
-                    return ;
+                    return;
                 }
                 balance = value;
             }
