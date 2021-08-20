@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/Account.deps.json
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/Account.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/Account.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/Account.dll
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/ref/Account.dll
+/Users/xinyitay/Projects/OOPCS/Account/bin/Debug/net5.0/Account.pdb
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.dll
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/ref/Account.dll
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.pdb
+/Users/xinyitay/Projects/OOPCS/Account/obj/Debug/net5.0/Account.genruntimeconfig.cache
