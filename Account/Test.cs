@@ -49,9 +49,12 @@ namespace Account
             // Withdraw 4000 from the account.
             // Make sure that the withdrawing is unsuccessful.
             account1.Withdraw(4000);
-            Console.WriteLine(account1.Balance);          
-            
-            
+            Console.WriteLine(account1.Balance);
+
+            Account account2 = new Account("123", "456", 100);
+            account1.TransferTo(200, account2);
+            Console.WriteLine("account1 balance: " + account1.Balance);
+            Console.WriteLine("account2 balance: " + account2.Balance);            
         }
 
    }
