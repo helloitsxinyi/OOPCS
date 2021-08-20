@@ -67,9 +67,7 @@ namespace Account
          * by the given amount
          */
         public double Deposit(double amt)
-        {
-            // NOT Balance, if Balance += amt will end up not changing the value.
-            // we want to change the value of balance.
+        {            
             if (amt <= 0)
             {
                 Console.WriteLine("Invalid deposit value, please try again.");
