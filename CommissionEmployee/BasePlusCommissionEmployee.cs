@@ -3,17 +3,23 @@ namespace CommissionEmployee
 {
     // inherit CommissionEmployee class.
     // inherit variables and methods
+    // must include arguments in constructor for base class
     public class BasePlusCommissionEmployee : CommissionEmployee
     {
         private double salary;
 
-        //// Default constructor for the derived class.
-        //public BasePlusCommissionEmployee() { }
-
-
-        public BasePlusCommissionEmployee(string name, string identityNumber, double grossSales, double commissionRate, double salary)
+        //constructors of a base class are not inherited.
+        // ask parent to initialization for me using base(name, identityNumber....)
+        public BasePlusCommissionEmployee(string name, string identityNumber, double grossSales, double commissionRate, double salary): base(name, identityNumber, grossSales, commissionRate)
         {
 
+            // salary only for the BasePlusCommission class
+            this.salary = salary;
+        }
+
+        public double Earnings()
+        {
+            return salary + GrossSales * CommissionRate;
         }
     }
 }

@@ -3,17 +3,30 @@ namespace CommissionEmployee
 {
     public class CommissionEmployee
     {
-        protected string name;
-        protected string identityNumber;
-        protected double grossSales;
-        protected double commissionRate;
+        private string name;
+        private string identityNumber;
+        private double grossSales;
+        private double commissionRate;
+
+        // best to declare private variables and then provide protected property
+        protected double GrossSales
+        {
+            get { return grossSales; }
+            set { grossSales = value; }
+        }
+
+        protected double CommissionRate
+        {
+            get { return commissionRate; }
+            set { commissionRate = value; }
+        }
 
         public CommissionEmployee(string name, string identityNumber, double grossSales, double commissionRate)
         {
             this.name = name;
             this.identityNumber = identityNumber;
-            this.grossSales = grossSales;
-            this.commissionRate = commissionRate;
+            GrossSales = grossSales;
+            CommissionRate = commissionRate;
         }
 
 
