@@ -30,7 +30,7 @@ namespace CommissionEmployee
         }
 
 
-        public double Earnings()
+        public virtual double Earnings()
         {
             return commissionRate * grossSales;
         }

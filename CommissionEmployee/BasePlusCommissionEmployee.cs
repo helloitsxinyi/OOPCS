@@ -18,7 +18,7 @@ namespace CommissionEmployee
             this.salary = salary;
         }
 
-        public double Earnings()
+        public override double Earnings()
         {
             return salary + GrossSales * CommissionRate;
         }
