@@ -3,10 +3,10 @@ namespace CommissionEmployee
 {
     public class CommissionEmployee
     {
-        private string name;
-        private string identityNumber;
-        private double grossSales;
-        private double commissionRate;
+        protected string name;
+        protected string identityNumber;
+        protected double grossSales;
+        protected double commissionRate;
 
         public CommissionEmployee(string name, string identityNumber, double grossSales, double commissionRate)
         {

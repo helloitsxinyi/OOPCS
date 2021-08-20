@@ -1,23 +1,20 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5BA04F6F-9368-4FE7-A511-CA27F70F4CD1}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1AA8C267-B72F-4A24-9A06-69918646BCFB}|Default">
   <MonoDevelop.Ide.ItemProperties.EvenNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CommissionEmployee/CommissionEmployee.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="PersonList/PersonList.cs" Line="34" Column="15" />
       <File FileName="../../Desktop/GDipSA/SA4102 Enterprise Solutions Design &amp; Development/OOPCS/OOPDay2WSSoln/PersonList/PersonList.cs" Line="16" Column="60" />
       <File FileName="Account/Account.cs" Line="127" Column="1" />
       <File FileName="Account/Test.cs" Line="57" Column="54" />
-      <File FileName="CommissionEmployee/Program.cs" Line="10" Column="10" />
-      <File FileName="CommissionEmployee/CommissionEmployee.cs" Line="7" Column="10" />
-      <File FileName="CommissionEmployee/BasePlusCommissionEmployee.cs" Line="1" Column="1" />
+      <File FileName="CommissionEmployee/CommissionEmployee.cs" Line="9" Column="18" />
+      <File FileName="CommissionEmployee/BasePlusCommissionEmployee.cs" Line="14" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOPCS" expanded="True">
             <Node name="Account" expanded="True" />
-            <Node name="CommissionEmployee" expanded="True">
-              <Node name="CommissionEmployee.cs" selected="True" />
-            </Node>
+            <Node name="CommissionEmployee" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -28,7 +25,7 @@
   <MonoDevelop.Ide.ItemProperties.PersonList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Account PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Person PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CommissionEmployee FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CommissionEmployee PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ColorLamp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
