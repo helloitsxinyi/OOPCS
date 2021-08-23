@@ -24,7 +24,7 @@ namespace Account
             // 2. Call Console.WriteLine(account1)
             // Make sure that the account information 
             // is displayed correctly
-            Account account1 = new Account("S0000111", "S1111111A", 2000);        
+            Account account1 = new Account("Acct123", "S1111111A", 2000);        
             Console.WriteLine(account1);
 
 
@@ -58,15 +58,30 @@ namespace Account
             Console.WriteLine("account2 balance: " + account2.Balance);
 
             // part II
-            SavingsAccount savingAccount = new SavingsAccount("S0000111", "S1111111A", 2000);
+            SavingsAccount savingAccount = new SavingsAccount("Savings123", "S1111111A", 2000);
             Console.WriteLine(savingAccount);
             Console.WriteLine("Interest: {0}", savingAccount.CalculateInterest());
             savingAccount.CreditInterest();
             Console.WriteLine(savingAccount);
             savingAccount.Withdraw(3000);
-            Console.WriteLine("savingAccount balanace: " + savingAccount.Balance);
+            savingAccount.TransferTo(3000, account2);
+            Console.WriteLine("savingAccount balance: " + savingAccount.Balance);
+            Console.WriteLine("account2 balance: " + account2.Balance);
 
-            
+            OverdraftAccount overdraftAccount = new OverdraftAccount("Overdraft123", "S1111111A", 2000);
+            Console.WriteLine(overdraftAccount);
+            Console.WriteLine("Interest: {0}", overdraftAccount.CalculateInterest());
+            overdraftAccount.CreditInterest();
+            Console.WriteLine(overdraftAccount);
+            overdraftAccount.Withdraw(3000);
+            Console.WriteLine("overdraftAccount balance after withdrawal: " + overdraftAccount.Balance);
+            overdraftAccount.TransferTo(3000, account2);
+            Console.WriteLine("overdraftAccount balance: " + overdraftAccount.Balance);
+            Console.WriteLine("account2 balance: " + account2.Balance);
+            Console.WriteLine("Interest: {0}", overdraftAccount.CalculateInterest());
+            overdraftAccount.CreditInterest();
+            Console.WriteLine(overdraftAccount);
+
         }
 
     }
