@@ -89,7 +89,7 @@ namespace Account
             Console.WriteLine(currAccount);
             currAccount.Withdraw(3000);
             currAccount.TransferTo(3000, account2);
-            Console.WriteLine("savingAccount balance: " + currAccount.Balance);
+            Console.WriteLine("currAccount balance: " + currAccount.Balance);
             Console.WriteLine("account2 balance: " + account2.Balance);
 
 
