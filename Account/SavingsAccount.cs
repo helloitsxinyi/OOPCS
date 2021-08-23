@@ -12,7 +12,7 @@ namespace Account
          * TODO: attributes
          * Create static variable interest = 1
          */
-        private double interest = 1;
+        private static double interest = 1;
 
 
 
@@ -38,22 +38,10 @@ namespace Account
          * its parent if neccessary. You may even consider moving
          * the whole method to its parents if possible.
          */
-
-
-
-
-        /**
-         * TODO: implement method CreditInterest
-         * The method deposit the interst amount, returns by
-         * CalculateInterest() method of this
-         * account to its balance.
-         * 
-         * You may need to override this method from
-         * its parent if neccessary. You may even consider moving
-         * the whole method to its parents if possible.
-         */
-
-
+        public override double CalculateInterest()
+        {
+            return (interest / 100) * Balance;
+        }
 
 
         /**
@@ -66,8 +54,10 @@ namespace Account
          * its parent if neccessary. You may even consider moving
          * the whole method to its parents if possible.
          */
-
-
+        public override void Withdraw(double amt)
+        {
+            base.Withdraw(amt);
+        }
 
 
         /**
@@ -79,9 +69,10 @@ namespace Account
          * 
          * This method should make use of its parent's method
          */
-
-
-
+        public override string ToString()
+        {
+            return "(Savings Account) accountNumber=" + AcctNumber + ", accountHolder=" + AcctHolderId + ", balance=" + Balance;
+        }
 
     }
 
