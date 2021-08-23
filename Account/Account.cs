@@ -30,7 +30,7 @@ namespace Account
         {
             AcctNumber = acctNumber;
             AcctHolderId = acctHolderId;
-            this.balance = balance;
+            Balance = balance;
         }
 
 
@@ -43,20 +43,20 @@ namespace Account
          */
         protected string AcctNumber { get; }
         protected string AcctHolderId { get; set; }
-        public double Balance
-        {
-            get { return balance; }
+        public double Balance { get; set; }
+        //{
+        //    get { return balance; }
 
-            set
-            {
-                if (value <= 0)
-                {
-                    Console.WriteLine("Transaction invalid!");
-                    return;
-                }
-                balance = value;
-            }
-        }
+        //    set
+        //    {
+        //        if (value <= 0)
+        //        {
+        //            Console.WriteLine("Transaction invalid!");
+        //            return;
+        //        }
+        //        balance = value;
+        //    }
+        //}
 
 
 
@@ -90,16 +90,16 @@ namespace Account
          */
 
         // don't have to use return. if use, can make loop simpler, otherwise, should be fine.
-        public virtual void Withdraw(double amt)
+        public virtual bool Withdraw(double amt)
         {
             if (amt <= 0)
             {
                 Console.WriteLine("Invalid withdrawal value, please try again.");
+                return false;
             }
-            else
-            {
-                Balance -= amt;
-            }                  
+
+            Balance -= amt;
+            return true;                  
         }
 
 
@@ -110,17 +110,22 @@ namespace Account
        * account. It makes sure that this sender has enough
        * balance before transfering
        */
-      public void TransferTo(double amt, Account another)
+      public bool TransferTo(double amt, Account another)
         {
             if (amt <= 0)
             {
-                Console.WriteLine("Invalid withdrawal value, please try again.");                
+                Console.WriteLine("Invalid withdrawal value, please try again.");
+                return false;
             }
-            else
+
+            if (Withdraw(amt))
             {
-                Balance -= amt;
                 another.Balance += amt;
+                return true;
             }
+
+            Console.WriteLine("Insufficient balance in account!");
+            return false;
         }
 
 
