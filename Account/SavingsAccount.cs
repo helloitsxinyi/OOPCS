@@ -12,7 +12,7 @@ namespace Account
          * TODO: attributes
          * Create static variable interest = 1
          */
-        private static double SavingsInterest = 1;
+        private static double savingsInterest = 1;
 
 
 
@@ -40,7 +40,7 @@ namespace Account
          */
         public override double CalculateInterest()
         {
-            return (SavingsInterest / 100) * Balance;
+            return (savingsInterest / 100) * Balance;
         }
 
 
