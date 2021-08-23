@@ -56,6 +56,11 @@ namespace Account
          */
         public override bool Withdraw(double amt)
         {
+            if (amt <= 0)
+            {
+                Console.WriteLine("Invalid withdrawal value, please try again.");
+                return false;
+            }
             if (amt > Balance)
             {
                 Console.WriteLine("Insufficient balance!");
