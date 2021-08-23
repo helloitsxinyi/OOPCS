@@ -43,7 +43,7 @@ namespace Account
          */
         protected string AcctNumber { get; }
         protected string AcctHolderId { get; set; }
-        protected double Balance
+        public double Balance
         {
             get { return balance; }
 
