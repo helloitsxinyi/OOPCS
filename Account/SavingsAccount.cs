@@ -12,7 +12,7 @@ namespace Account
          * TODO: attributes
          * Create static variable interest = 1
          */
-        private static double interest = 1;
+        private static double SavingsInterest = 1;
 
 
 
@@ -40,7 +40,7 @@ namespace Account
          */
         public override double CalculateInterest()
         {
-            return (interest / 100) * Balance;
+            return (SavingsInterest / 100) * Balance;
         }
 
 
@@ -54,9 +54,14 @@ namespace Account
          * its parent if neccessary. You may even consider moving
          * the whole method to its parents if possible.
          */
-        public override void Withdraw(double amt)
+        public override bool Withdraw(double amt)
         {
-            base.Withdraw(amt);
+            if (amt > Balance)
+            {
+                Console.WriteLine("Insufficient balance!");
+                return false;
+            }
+            return base.Withdraw(amt);            
         }
 
 
