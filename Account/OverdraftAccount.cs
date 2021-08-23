@@ -91,7 +91,8 @@ namespace Account
          */
         public override string ToString()
         {
-            return "(Overdraft Account) accountNumber=" + AcctNumber + ", accountHolder=" + AcctHolderId + ", balance=" + Balance;
+            //use parent class methods!
+            return "(Overdraft Account) " + base.ToString();
         }
     }
 }
