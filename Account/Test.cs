@@ -54,8 +54,10 @@ namespace Account
             Account account2 = new Account("123", "456", 100);
             account1.TransferTo(200, account2);
             Console.WriteLine("account1 balance: " + account1.Balance);
-            Console.WriteLine("account2 balance: " + account2.Balance);            
+            Console.WriteLine("account2 balance: " + account2.Balance);
+            
+
         }
 
-   }
+    }
 }
