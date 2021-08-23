@@ -82,6 +82,16 @@ namespace Account
             overdraftAccount.CreditInterest();
             Console.WriteLine(overdraftAccount);
 
+            CurrentAccount currAccount = new CurrentAccount("Curr123", "S1111111A", 2000);
+            Console.WriteLine(currAccount);
+            Console.WriteLine("Interest: {0}", currAccount.CalculateInterest());
+            currAccount.CreditInterest();
+            Console.WriteLine(currAccount);
+            currAccount.Withdraw(3000);
+            currAccount.TransferTo(3000, account2);
+            Console.WriteLine("savingAccount balance: " + currAccount.Balance);
+            Console.WriteLine("account2 balance: " + account2.Balance);
+
 
 
         }
