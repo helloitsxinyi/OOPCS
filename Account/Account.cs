@@ -68,15 +68,8 @@ namespace Account
 
         // don't have to use return. if use, can make loop simpler, otherwise, should be fine.
         public void Deposit(double amt)
-        {            
-            if (amt <= 0)
-            {
-                Console.WriteLine("Invalid deposit value, please try again.");            
-            }
-            else
-            {
-                Balance += amt;
-            }            
+        {
+            Balance += amt;           
         }
 
 
