@@ -1,0 +1,4 @@
+﻿This workshop continues the one about Inheritance. Using all the class created from the Inheritance workshop, do the following:
+
+1.	Create a BankBranch class as described in the BankBranch.cs file.
+2.	Create a new Test class and within its Main() method, test that your BankBranch class functions correctly
