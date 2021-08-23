@@ -90,7 +90,7 @@ namespace Account
          */
 
         // don't have to use return. if use, can make loop simpler, otherwise, should be fine.
-        public void Withdraw(double amt)
+        public virtual void Withdraw(double amt)
         {
             if (amt <= 0)
             {
@@ -124,6 +124,17 @@ namespace Account
         }
 
 
+        public virtual double CalculateInterest()
+        {
+            return 0;
+        }
+
+
+        public virtual void CreditInterest()
+        {
+            Deposit(CalculateInterest());
+        }
+
 
         /**
          * TODO: override method ToString
@@ -138,6 +149,6 @@ namespace Account
         public override string ToString()
         {
             return "accountNumber=" + AcctNumber + ", accountHolder=" + AcctHolderId + ", balance=" + Balance;
-        }
+        }        
     }
 }
