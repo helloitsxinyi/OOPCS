@@ -10,6 +10,7 @@ namespace Account
    {
       public static void Main()
       {
+            // part I
             // Test class Account by creating an Account object
             // and call methods to make sure your code at 
             // class Account work
@@ -55,8 +56,17 @@ namespace Account
             account1.TransferTo(200, account2);
             Console.WriteLine("account1 balance: " + account1.Balance);
             Console.WriteLine("account2 balance: " + account2.Balance);
-            
 
+            // part II
+            SavingsAccount savingAccount = new SavingsAccount("S0000111", "S1111111A", 2000);
+            Console.WriteLine(savingAccount);
+            Console.WriteLine("Interest: {0}", savingAccount.CalculateInterest());
+            savingAccount.CreditInterest();
+            Console.WriteLine(savingAccount);
+            savingAccount.Withdraw(3000);
+            Console.WriteLine("savingAccount balanace: " + savingAccount.Balance);
+
+            
         }
 
     }
