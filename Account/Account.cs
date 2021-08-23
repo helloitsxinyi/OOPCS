@@ -28,9 +28,13 @@ namespace Account
          */
         public Account(string acctNumber, string acctHolderId, double balance)
         {
-            AcctNumber = acctNumber;
-            AcctHolderId = acctHolderId;
-            Balance = balance;
+            this.acctNumber = acctNumber;
+            this.acctHolderId = acctHolderId;
+            this.balance = balance;
+
+            //AcctNumber = acctNumber;
+            //AcctHolderId = acctHolderId;
+            //Balance = balance;
         }
 
 
@@ -41,9 +45,26 @@ namespace Account
          * Note: acctNumber should be read-only, i.e. can not be
          * set from outside
          */
-        protected string AcctNumber { get; }
-        protected string AcctHolderId { get; set; }
-        public double Balance { get; set; }
+        protected string AcctNumber
+        {
+            get { return acctNumber; }
+        }
+
+        protected string AcctHolderId
+        {
+            get { return acctHolderId; }
+            set { acctHolderId = value; }
+        }
+
+        public double Balance
+        {
+            get { return balance; }
+            set { balance = value; }
+        }
+        //protected string AcctNumber { get; }
+        //protected string AcctHolderId { get; set; }
+        //public double Balance { get; set; }
+        //public double Balance 
         //{
         //    get { return balance; }
 
