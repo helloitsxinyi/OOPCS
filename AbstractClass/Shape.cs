@@ -3,6 +3,7 @@ namespace AbstractClass
 {
     public abstract class Shape
     {
+        //can use properties too if you want, else this private attribute is fine too
         private string color;
 
         public Shape(string color)
