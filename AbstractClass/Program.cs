@@ -17,7 +17,7 @@ namespace AbstractClass
             Console.WriteLine("Area of Triangle: " + triangle.Area());
 
             Shape circle = new Circle("yellow", radius);
-            Console.WriteLine("Area of Circle: " + $"{circle.Area():#.##}");
+            Console.WriteLine("Area of Circle: " + circle.Area());
         }
     }
 }
