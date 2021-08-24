@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/AbstractClass.deps.json
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/AbstractClass.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/AbstractClass.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/AbstractClass.dll
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/ref/AbstractClass.dll
+/Users/xinyitay/Projects/OOPCS/AbstractClass/bin/Debug/net5.0/AbstractClass.pdb
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.dll
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/ref/AbstractClass.dll
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.pdb
+/Users/xinyitay/Projects/OOPCS/AbstractClass/obj/Debug/net5.0/AbstractClass.genruntimeconfig.cache
