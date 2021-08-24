@@ -15,7 +15,7 @@ namespace Interface
         public string GetSyncString()
         {
             //system autosimplifies to: *{date:dd/mm/yy,HH:MM}*;
-            return $"EV*{id}*{title}*{date.ToString("dd/mm/yy,HH:MM")}*";
+            return $"EV*{id}*{title}*{date.ToString("dd/MM/yy,HH:MM")}*";
         }
     }
 }
