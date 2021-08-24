@@ -12,7 +12,8 @@ namespace AbstractClass
 
         public override double Area()
         {
-            return Math.PI * Math.Pow(radius, 2);
+            //can use math.round!
+            return Math.Round(Math.PI * Math.Pow(radius, 2), 2);
         }
     }
 }
