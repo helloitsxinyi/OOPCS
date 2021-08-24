@@ -12,7 +12,7 @@ namespace Interface
 
         public string GetSyncString()
         {
-            return $"CO*{id}*{name}*{mobile}";
+            return $"CO*{id}*{name}*{mobile}*";
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Interface
 
         public string GetSyncString()
         {
-            return $"EM*{id}*{title}*{from}*{content}";
+            return $"EM*{id}*{title}*{from}*{content}*";
         }
     }
 }
