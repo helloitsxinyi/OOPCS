@@ -5,7 +5,7 @@ namespace AbstractClass
     {
         private double width, height;
                 
-        public Rectangle(string color, double width, double height): base(color)
+        public Rectangle(string color, double width, double height) : base(color)
         {
             this.width = width;
             this.height = height;
