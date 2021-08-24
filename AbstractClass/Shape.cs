@@ -18,6 +18,7 @@ namespace AbstractClass
         }
 
         // leave calculation of area to child classes
+        // dictate that return type is double, so even if inputs is int, also ok as long as returned value is double
         public abstract double Area();
     }
 }
