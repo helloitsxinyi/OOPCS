@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/OOPCSDay6.deps.json
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/OOPCSDay6.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/OOPCSDay6.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/OOPCSDay6.dll
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/ref/OOPCSDay6.dll
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/bin/Debug/net5.0/OOPCSDay6.pdb
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.dll
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/ref/OOPCSDay6.dll
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.pdb
+/Users/xinyitay/Projects/OOPCS/OOPCSDay6/obj/Debug/net5.0/OOPCSDay6.genruntimeconfig.cache

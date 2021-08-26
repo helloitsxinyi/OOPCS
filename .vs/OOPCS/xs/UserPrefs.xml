@@ -1,31 +1,25 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E23F7D07-4D65-4EDD-9C4C-DD289DD2B96C}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{448FD10D-9F0E-41F4-84BC-8A4A95C61D5E}|Default">
+  <MonoDevelop.Ide.ItemProperties.OOPCSDay6 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.EvenNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractClass/Shape.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Account/BankBranch.cs" Line="14" Column="1" />
-      <File FileName="AbstractClass/Program.cs" Line="20" Column="66" />
-      <File FileName="AbstractClass/Triangle.cs" Line="1" Column="1" />
-      <File FileName="AbstractClass/Circle.cs" Line="15" Column="34" />
-      <File FileName="AbstractClass/Shape.cs" Line="1" Column="1" />
+      <File FileName="Interface/ISyncable.cs" Line="1" Column="1" />
+      <File FileName="OOPCSDay6/Program.cs" Line="24" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOPCS" expanded="True">
-            <Node name="AbstractClass" expanded="True">
-              <Node name="Shape.cs" selected="True" />
-            </Node>
-            <Node name="Account" expanded="True" />
-            <Node name="CommissionEmployee" expanded="True" />
+            <Node name="AbstractClass" expanded="True" />
             <Node name="Interface" expanded="True" />
-            <Node name="PersonList" expanded="True" />
+            <Node name="OOPCSDay6" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.PersonProp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Interface FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Interface PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.PersonList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Account PreferredExecutionTarget="MonoDevelop.Default" />

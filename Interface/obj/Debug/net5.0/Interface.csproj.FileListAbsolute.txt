@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/Interface.deps.json
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/Interface.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/Interface.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/Interface.dll
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/ref/Interface.dll
+/Users/xinyitay/Projects/OOPCS/Interface/bin/Debug/net5.0/Interface.pdb
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.dll
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/ref/Interface.dll
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.pdb
+/Users/xinyitay/Projects/OOPCS/Interface/obj/Debug/net5.0/Interface.genruntimeconfig.cache
