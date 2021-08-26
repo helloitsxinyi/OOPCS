@@ -1,20 +1,22 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{448FD10D-9F0E-41F4-84BC-8A4A95C61D5E}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{459793A4-7867-443C-B30B-74A50EB06096}|Default">
   <MonoDevelop.Ide.ItemProperties.OOPCSDay6 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.EvenNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exceptions/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestPropogation/Program.cs">
     <Files>
-      <File FileName="Interface/ISyncable.cs" Line="1" Column="1" />
-      <File FileName="OOPCSDay6/Program.cs" Line="18" Column="62" />
-      <File FileName="Exceptions/Program.cs" Line="1" Column="1" />
+      <File FileName="Exceptions/Program.cs" Line="19" Column="38" />
+      <File FileName="Exceptions/Triangle.cs" Line="12" Column="89" />
+      <File FileName="Exceptions/BadTriangleException.cs" Line="5" Column="6" />
+      <File FileName="TestPropogation/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OOPCS" expanded="True">
             <Node name="AbstractClass" expanded="True" />
-            <Node name="Exceptions" expanded="True" selected="True" />
-            <Node name="Interface" expanded="True" />
-            <Node name="OOPCSDay6" expanded="True" />
+            <Node name="Exceptions" expanded="True" />
+            <Node name="TestPropogation" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -36,7 +38,8 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AbstractClass PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Exceptions FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TestPropogation FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Exceptions PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.OOPCS PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.OOPCSDay1 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

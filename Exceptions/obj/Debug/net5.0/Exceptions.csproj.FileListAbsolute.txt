@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/Exceptions.deps.json
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/Exceptions.runtimeconfig.json
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/Exceptions.runtimeconfig.dev.json
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/Exceptions.dll
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/ref/Exceptions.dll
+/Users/xinyitay/Projects/OOPCS/Exceptions/bin/Debug/net5.0/Exceptions.pdb
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.AssemblyInfo.cs
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.dll
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/ref/Exceptions.dll
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.pdb
+/Users/xinyitay/Projects/OOPCS/Exceptions/obj/Debug/net5.0/Exceptions.genruntimeconfig.cache
