@@ -3,7 +3,6 @@ namespace Exceptions
 {
     public class BadTriangleException : Exception
     {
-
         public BadTriangleException() : base()
         {
         }
