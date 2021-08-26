@@ -26,7 +26,7 @@ namespace TestPropogation
             catch (Exception e)
             {
                 Console.WriteLine("Enter catch block of Main.");
-                // TargetSite gets the method that throws the current exception.
+                // TargetSite gets the method that throws the current exception, ie the method that caused the error.                
                 // here, TargetSite is void M2().
                 Console.WriteLine("Exception from: {0}",
                            e.TargetSite);
