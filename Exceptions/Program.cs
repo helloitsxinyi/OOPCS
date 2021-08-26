@@ -6,7 +6,11 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            int x = 10 / i;
+
             // put the try catch in main or BadTriangleException?
+            // best to put specific catches in your methods i think, then put a general Exception handler in main to handle any exception.
             try
             {
                 Triangle triangle = new Triangle(7, 10, 5);
@@ -18,6 +22,9 @@ namespace Exceptions
             {
                 Console.WriteLine(e);
             }
+
+
+            
             
         }
     }
