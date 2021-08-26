@@ -14,6 +14,8 @@ namespace OOPCSDay6
                 int quotient = 10 / divisor;
                 Console.WriteLine(quotient);
             }
+            // can use many catch blocks to catch diff types of errors.
+            // try block will break when exception is caught 
             catch (DivideByZeroException e)
             {
                 Console.WriteLine(e.Message);
